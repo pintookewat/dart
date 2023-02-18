@@ -125,7 +125,63 @@ print(two);
 // set
 
 
-var ab = {"hello, hello2, hello3"};
+var ab = {"hello, hello, hello3", 1, 2, 3, 4, 1}; // remove same value
 print(ab);
+var bb = <String> {"hello, hello, hello3"}; 
+Set<String> cc  = {"hello, hello, hello3"};
+
+var s1 = Set();
+print(s1);
+print(s1.runtimeType);
+
+Set d1 = {};
+print(d1);
+print(d1.runtimeType);
+// method  sets
+ print("add, remove, removeAt(1), removeLast");
+
+// MAP IN DART
+// map literal
+
+var address1 = {
+"name":"pintoo",
+'city':" indore",
+"state": "mp"
+};
+
+print(address1);
+
+Map<String, String> address2 = {
+	"name":"pintoo",
+'city':" indore",
+"state": "mp"
+};
+print(address2);
+
+// Empty map
+
+var map1 = Map();
+print(map1);
+print(map1.runtimeType);
+// add
+map1["name"] = "pintoo";
+print(map1);
+// access
+Map<String, String> address4 = {
+	"name":"pintoo",
+'city':" indore",
+"state": "mp"
+};
+print(address4["name"]);
+// methods
+print("length, isEmpty, isNotEmpty, reversed, first, last, keys, values, constainsKey, containsValue");
+
+// control flow statements   if else
+var is_me = true;
+if(is_me){
+print("i am");
+} else{
+print(" i am not");
+}
 
 }
