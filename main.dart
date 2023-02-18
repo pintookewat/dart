@@ -77,5 +77,55 @@ print(sting.isNotEmpty);
 print(sting.contains("hello"));
 print(sting.padLeft(10));
 print(sting.padRight(10));
+print(sting.trim());  //remove space
+print(sting.trimLeft());  //remove space left
+print(sting.trimRight());  //remove space right
+print(sting.split('welcome'));  // split data
+
+
+
+				// List
+				// Fixed lenght list
+
+			// var lst = new List(3);
+
+			// lst[0] = "pin1";
+			// lst[1] = "pin2";
+			// lst[2] = "pin3";
+			// print(lst);
+
+			// List<String> lst = new List(3);   you make list as you want data type
+
+
+// Growable list     
+
+var lst = ["pintoo", 123, true ];
+print(lst);
+
+
+// spread ...
+
+var one = ["pintoo"];
+var  two = ["Hello", "welcome", "to", ...one];
+print(two);
+
+// Empty list
+// var cart = new List();  //   or   var student = []
+
+
+// List properties and methods
+
+ var student  = [1, 2, 3 ]; 
+ print("length, isEmpty, isNotEmpty, reversed, first, last");
+
+// method
+ print("remove, removeAt(1), removeLast, add");
+
+
+// set
+
+
+var ab = {"hello, hello2, hello3"};
+print(ab);
 
 }
