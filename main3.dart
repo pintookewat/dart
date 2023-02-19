@@ -1,6 +1,6 @@
 // Inhertance
 // last class feature get new class
-// SINGLE LEVE  and  multi level and hierarchical level
+// SINGLE LEVE  ,  multi level and hierarchical level
 
 void main(){
 var obj1 = Son();
@@ -24,3 +24,25 @@ class  Son extends Father {
  	print(money);
  }
 }
+
+
+// redefine the last clas Inhertance
+
+// @override
+
+
+// class  Son extends Father {
+// 	 @override
+//  var car = "bmw";
+//  disp(){
+//  	print(car);
+//  	print(money);
+//  }
+// }
+
+
+// super key word 
+
+// parent varibale data show
+
+// print(super.money);
