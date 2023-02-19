@@ -184,4 +184,52 @@ print("i am");
 print(" i am not");
 }
 
+// loop
+// switch
+
+
+// function   are object
+
+// define
+
+// returnType function_name(datatype parameter){
+// 	statements
+// 	return statements
+// }
+
+// calling funcation
+
+// function_name();
+
+fun1(){
+print("My first funcation without paramerts");
+}
+
+fun1();
+
+// My first funcation with paramerts
+
+fun2(a, b){
+return a + b; 
+}
+
+ var result = fun2(2, 3);
+ print(result);
+
+
+// for making optional paramerts we have to put the value in sdied the [] like [3].
+// and also give default value [3 = hello] in function
+
+
+
+// Anonymous function
+
+
+// Arrow function
+var students = ["vivek", "suraj", "pintoo", "Aman"];
+students.forEach((value)=>print(value));
+
+
+
+
 }
